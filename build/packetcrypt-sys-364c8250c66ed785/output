@@ -1,0 +1,114 @@
+Looking for libsodium in /root/pktrs/target/release/build
+Found sodium.h in /root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = Some("clang")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+cargo:warning=march=native is enabled, this build is non-portable
+OPT_LEVEL = Some("3")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = Some("clang")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = Some("clang")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = Some("clang")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/JIT/NoJIT.o" "-c" "packetcrypt/src/JIT/NoJIT.c"
+cargo:warning=packetcrypt/src/JIT/NoJIT.c:7:19: warning: explicitly assigning value of variable of type 'uint32_t *' (aka 'unsigned int *') to itself [-Wself-assign]
+cargo:warning=    7 |     programBuffer = programBuffer;
+cargo:warning=      |     ~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~
+cargo:warning=packetcrypt/src/JIT/NoJIT.c:8:19: warning: explicitly assigning value of variable of type 'uint32_t' (aka 'unsigned int') to itself [-Wself-assign]
+cargo:warning=    8 |     programLength = programLength;
+cargo:warning=      |     ~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~
+cargo:warning=packetcrypt/src/JIT/NoJIT.c:13:19: warning: explicitly assigning value of variable of type 'uint32_t *' (aka 'unsigned int *') to itself [-Wself-assign]
+cargo:warning=   13 |     programBuffer = programBuffer;
+cargo:warning=      |     ~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~
+cargo:warning=packetcrypt/src/JIT/NoJIT.c:14:11: warning: explicitly assigning value of variable of type 'int' to itself [-Wself-assign]
+cargo:warning=   14 |     index = index;
+cargo:warning=      |     ~~~~~ ^ ~~~~~
+cargo:warning=packetcrypt/src/JIT/NoJIT.c:15:12: warning: explicitly assigning value of variable of type 'void *' to itself [-Wself-assign]
+cargo:warning=   15 |     hashIn = hashIn;
+cargo:warning=      |     ~~~~~~ ^ ~~~~~~
+cargo:warning=packetcrypt/src/JIT/NoJIT.c:16:13: warning: explicitly assigning value of variable of type 'void *' to itself [-Wself-assign]
+cargo:warning=   16 |     hashOut = hashOut;
+cargo:warning=      |     ~~~~~~~ ^ ~~~~~~~
+cargo:warning=packetcrypt/src/JIT/NoJIT.c:17:13: warning: explicitly assigning value of variable of type 'rh_jit_program_t *' (aka 'struct rh_jit_program *') to itself [-Wself-assign]
+cargo:warning=   17 |     program = program;
+cargo:warning=      |     ~~~~~~~ ^ ~~~~~~~
+cargo:warning=packetcrypt/src/JIT/NoJIT.c:22:13: warning: explicitly assigning value of variable of type 'rh_jit_program_t *' (aka 'struct rh_jit_program *') to itself [-Wself-assign]
+cargo:warning=   22 |     program = program;
+cargo:warning=      |     ~~~~~~~ ^ ~~~~~~~
+cargo:warning=8 warnings generated.
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/Validate.o" "-c" "packetcrypt/src/Validate.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/AnnMerkle.o" "-c" "packetcrypt/src/AnnMerkle.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/AnnMiner.o" "-c" "packetcrypt/src/AnnMiner.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/Announce.o" "-c" "packetcrypt/src/Announce.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/CryptoCycle.o" "-c" "packetcrypt/src/CryptoCycle.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/Hash.o" "-c" "packetcrypt/src/Hash.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/PacketCryptProof.o" "-c" "packetcrypt/src/PacketCryptProof.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/PcCompress.o" "-c" "packetcrypt/src/PcCompress.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/RandGen.o" "-c" "packetcrypt/src/RandGen.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/RandHash_interpreted.o" "-c" "packetcrypt/src/RandHash_interpreted.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/PTime.o" "-c" "packetcrypt/src/PTime.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/Work.o" "-c" "packetcrypt/src/Work.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/ProofTree.o" "-c" "packetcrypt/src/ProofTree.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/BlockMine.o" "-c" "packetcrypt/src/BlockMine.c"
+exit status: 0
+running: "clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-fno-plt" "--target=x86_64-unknown-linux-gnu" "-I" "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include" "-I" "packetcrypt/include" "-I" "packetcrypt/src" "-Wall" "-Wextra" "-Wno-implicit-function-declaration" "-Wno-implicit-fallthrough" "-O2" "-march=native" "-mtune=native" "-o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/UdpGso.o" "-c" "packetcrypt/src/UdpGso.c"
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: ZERO_AR_DATE="1" "ar" "cq" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/libpacketcrypt.a" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/JIT/NoJIT.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/Validate.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/AnnMerkle.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/AnnMiner.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/Announce.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/CryptoCycle.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/Hash.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/PacketCryptProof.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/PcCompress.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/RandGen.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/RandHash_interpreted.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/PTime.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/Work.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/ProofTree.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/BlockMine.o" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/packetcrypt/src/UdpGso.o"
+exit status: 0
+running: "ar" "s" "/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib/libpacketcrypt.a"
+exit status: 0
+cargo:rustc-link-lib=static=packetcrypt
+cargo:rustc-link-search=native=/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/lib
+cargo:root=/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out
+cargo:include=/root/pktrs/target/release/build/packetcrypt-sys-364c8250c66ed785/out/include
+cargo:rerun-if-changed=/root/pktrs/packetcrypt-sys
+cargo:rerun-if-env-changed=PC_CC

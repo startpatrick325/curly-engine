@@ -1,0 +1,86 @@
+[packetcrypt-sys/build.rs:125:5] cfg.include("packetcrypt/include").include("packetcrypt/src").flag("-Wno-implicit-function-declaration").flag("-Wno-implicit-fallthrough").file("packetcrypt/src/Validate.c").file("packetcrypt/src/AnnMerkle.c").file("packetcrypt/src/AnnMiner.c").file("packetcrypt/src/Announce.c").file("packetcrypt/src/CryptoCycle.c").file("packetcrypt/src/Hash.c").file("packetcrypt/src/PacketCryptProof.c").file("packetcrypt/src/PcCompress.c").file("packetcrypt/src/RandGen.c").file("packetcrypt/src/RandHash_interpreted.c").file("packetcrypt/src/PTime.c").file("packetcrypt/src/Work.c").file("packetcrypt/src/ProofTree.c").file("packetcrypt/src/BlockMine.c").file("packetcrypt/src/UdpGso.c") = Build {
+    include_directories: [
+        "/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/source/libsodium/src/libsodium/include",
+        "packetcrypt/include",
+        "packetcrypt/src",
+    ],
+    definitions: [],
+    objects: [],
+    flags: [
+        "-Wno-implicit-function-declaration",
+        "-Wno-implicit-fallthrough",
+    ],
+    flags_supported: [
+        "-march=native",
+        "-mtune=native",
+    ],
+    known_flag_support_status: Mutex {
+        data: {
+            "-fno-plt": true,
+        },
+        poisoned: false,
+        ..
+    },
+    ar_flags: [],
+    no_default_flags: false,
+    files: [
+        "packetcrypt/src/JIT/NoJIT.c",
+        "packetcrypt/src/Validate.c",
+        "packetcrypt/src/AnnMerkle.c",
+        "packetcrypt/src/AnnMiner.c",
+        "packetcrypt/src/Announce.c",
+        "packetcrypt/src/CryptoCycle.c",
+        "packetcrypt/src/Hash.c",
+        "packetcrypt/src/PacketCryptProof.c",
+        "packetcrypt/src/PcCompress.c",
+        "packetcrypt/src/RandGen.c",
+        "packetcrypt/src/RandHash_interpreted.c",
+        "packetcrypt/src/PTime.c",
+        "packetcrypt/src/Work.c",
+        "packetcrypt/src/ProofTree.c",
+        "packetcrypt/src/BlockMine.c",
+        "packetcrypt/src/UdpGso.c",
+    ],
+    cpp: false,
+    cpp_link_stdlib: None,
+    cpp_set_stdlib: None,
+    cuda: false,
+    cudart: None,
+    target: None,
+    host: None,
+    out_dir: None,
+    opt_level: None,
+    debug: None,
+    force_frame_pointer: None,
+    env: [],
+    compiler: None,
+    archiver: None,
+    cargo_metadata: true,
+    pic: None,
+    use_plt: Some(
+        false,
+    ),
+    static_crt: None,
+    shared_flag: None,
+    static_flag: None,
+    warnings_into_errors: false,
+    warnings: None,
+    extra_warnings: None,
+    env_cache: Mutex {
+        data: {
+            "TARGET": Some(
+                "x86_64-unknown-linux-gnu",
+            ),
+            "HOST": Some(
+                "x86_64-unknown-linux-gnu",
+            ),
+        },
+        poisoned: false,
+        ..
+    },
+    apple_sdk_root_cache: Mutex {
+        data: {},
+        poisoned: false,
+        ..
+    },
+}

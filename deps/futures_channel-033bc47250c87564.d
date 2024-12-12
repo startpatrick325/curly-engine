@@ -1,0 +1,12 @@
+/root/pktrs/target/release/deps/libfutures_channel-033bc47250c87564.rmeta: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/lock.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/mod.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/queue.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/sink_impl.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/oneshot.rs
+
+/root/pktrs/target/release/deps/libfutures_channel-033bc47250c87564.rlib: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/lock.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/mod.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/queue.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/sink_impl.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/oneshot.rs
+
+/root/pktrs/target/release/deps/futures_channel-033bc47250c87564.d: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/lock.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/mod.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/queue.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/sink_impl.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/oneshot.rs
+
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/lock.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/mod.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/queue.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/mpsc/sink_impl.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-channel-0.3.21/src/oneshot.rs:

@@ -1,0 +1,12 @@
+prefix=/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/installed
+exec_prefix=${prefix}
+libdir=/root/pktrs/target/release/build/libsodium-sys-68fecd2318a92715/out/installed/lib
+includedir=${prefix}/include
+
+Name: libsodium
+Version: 1.0.18
+Description: A modern and easy-to-use crypto library
+
+Libs: -L${libdir} -lsodium
+Libs.private: -lpthread -pthread 
+Cflags: -I${includedir}

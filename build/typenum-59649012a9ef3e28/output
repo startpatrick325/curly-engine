@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/root/pktrs/target/release/build/typenum-59649012a9ef3e28/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/root/pktrs/target/release/build/typenum-59649012a9ef3e28/out/op.rs
